@@ -2,8 +2,8 @@
 <results trackingurl="GPS">
 	<object id="1">
 		<title><![CDATA[Hotel Hello World]]></title>
-		<thumbnail><![CDATA[http://dev.junaio.com/publisherDownload/thumb_a1.png]]></thumbnail>
-		<icon><![CDATA[http://dev.junaio.com/publisherDownload/icon_a1.png]]></icon>
+		<thumbnail><![CDATA[http://s.videos.globo.com/gv/assets/images/logo-globotv.png]]></thumbnail>
+		<icon><![CDATA[http://s.videos.globo.com/gv/assets/images/logo-globotv.png]]></icon>
 		<location>
 			<lat>-23.002023</lat>
 			<lon>-43.3199705</lon>
