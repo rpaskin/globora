@@ -50,7 +50,7 @@ arel.sceneReady(function()
   {
     arel.Events.setListener(sceneObjects[i], handleObjectCallbacks);
   }
-  
+
   googleAnalytics.logSceneReady();
 });
 
@@ -114,7 +114,7 @@ function handleObjectCallbacks(obj, type, params)
     {
       googleAnalytics.logUIInteraction(arel.Plugin.Analytics.Action.TOUCHENDED, objectId)
     }
-    
+
   }
   catch(e)
   {
