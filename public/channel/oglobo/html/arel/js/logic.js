@@ -40,7 +40,7 @@ function openYouTubeVideo(youTubeLink,name)
   googleAnalytics.logYouTubeVideo(encodeURIComponent(name));
 }
 ACCOUNT_ID = google_analytics_id;
-googleAnalytics =  new arel.Plugin.Analytics (ACCOUNT_ID, arel.Plugin.Analytics.EventSampling.ONCE, 'OGlobo');
+googleAnalytics =  new arel.Plugin.Analytics (ACCOUNT_ID, arel.Plugin.Analytics.EventSampling.ONCE, '');
 arel.sceneReady(function()
 {
   arel.Events.setListener(arel.Scene, function(type, param){trackingHandler(type, param);});
@@ -50,7 +50,7 @@ arel.sceneReady(function()
   {
     arel.Events.setListener(sceneObjects[i], handleObjectCallbacks);
   }
-
+  
   googleAnalytics.logSceneReady();
 });
 
@@ -114,7 +114,7 @@ function handleObjectCallbacks(obj, type, params)
     {
       googleAnalytics.logUIInteraction(arel.Plugin.Analytics.Action.TOUCHENDED, objectId)
     }
-
+    
   }
   catch(e)
   {
