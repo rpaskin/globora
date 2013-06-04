@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results trackingurl="html/resources/TrackingData.zip">
+  <arel><![CDATA[html/index.html]]></arel>
+  <object id="7dc16649eac2eea844a86d241e514bcf">
+    <title><![CDATA[anima1]]></title>
+    <assets3d>
+      <movie><![CDATA[html/resources/9ea6e31fa2996a78b2b3d6bbe254fa2c/video.3g2]]></movie>
+      <transform>
+        <translation>
+          <x>-6.95567321777343750000</x>
+          <y>-144.33464050292968750000</y>
+          <z>5.00799989700317382812</z>
+        </translation>
+        <rotation type="eulerdeg">
+          <x>0.00000000000000000000</x>
+          <y>0.00000000000000000000</y>
+          <z>-0.25257042050361633301</z>
+        </rotation>
+        <scale>
+          <x>5.39327764511108398438</x>
+          <y>5.39327764511108398438</y>
+          <z>1.00000000000000000000</z>
+        </scale>
+      </transform>
+      <properties>
+        <coordinatesystemid>2</coordinatesystemid>
+      </properties>
+    </assets3d>
+    <viewparameters/>
+    <parameters>
+      <parameter key="creator_isondetectiontriggerdefined"><![CDATA[1]]></parameter>
+    </parameters>
+  </object>
+  <object id="0e42e41cdf80d8940d2a592da6c6ed0c">
+    <title><![CDATA[maracanaGlobo]]></title>
+    <assets3d>
+      <movie><![CDATA[html/resources/c4743240775afdb4f7260d27db2c6228/video.3g2]]></movie>
+      <transform>
+        <translation>
+          <x>6.95588684082031250000</x>
+          <y>0.00000762939453125000</y>
+          <z>5.00799989700317382812</z>
+        </translation>
+        <rotation type="eulerdeg">
+          <x>0.00000000000000000000</x>
+          <y>-0.00000000000000000000</y>
+          <z>0.00000000000000000000</z>
+        </rotation>
+        <scale>
+          <x>9.29387664794921875000</x>
+          <y>9.29387664794921875000</y>
+          <z>1.00000000000000000000</z>
+        </scale>
+      </transform>
+    </assets3d>
+    <viewparameters/>
+    <parameters>
+      <parameter key="creator_isondetectiontriggerdefined"><![CDATA[1]]></parameter>
+    </parameters>
+  </object>
+</results>
